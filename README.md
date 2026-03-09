@@ -38,3 +38,11 @@ See the **[Full Documentation](./PROJECT-DOCUMENTATION/README.md)** for:
 - Environment variable reference
 - Comprehensive API documentation
 - Architecture decision records
+
+---
+
+## Screenshots
+<img width="1896" height="966" alt="image" src="https://github.com/user-attachments/assets/da2f848b-c9c2-4ad6-b9e4-022d09c090a1" />
+
+<img width="1876" height="974" alt="image" src="https://github.com/user-attachments/assets/48297c83-43da-4a62-940d-b5f9205e7b44" />
+
