@@ -1,0 +1,47 @@
+# ── Secrets & Environment Variables ──────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+
+# ── .NET / C# ─────────────────────────────────────────────────────────────────
+**/[Bb]in/
+**/[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userprefs
+*.launchSettings.json
+packages/
+TestResults/
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+.docker/
+
+# ── Editor / IDE ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+# Keep these if you want to share settings/extensions
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*.swo
+*~
+
+# ── OS Generated ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
