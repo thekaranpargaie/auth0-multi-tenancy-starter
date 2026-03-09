@@ -46,3 +46,4 @@ See the **[Full Documentation](./PROJECT-DOCUMENTATION/README.md)** for:
 
 <img width="1876" height="974" alt="image" src="https://github.com/user-attachments/assets/48297c83-43da-4a62-940d-b5f9205e7b44" />
 
+<img width="1873" height="968" alt="image" src="https://github.com/user-attachments/assets/095b7d53-c8c9-420e-89a6-aa883b013ffb" />
