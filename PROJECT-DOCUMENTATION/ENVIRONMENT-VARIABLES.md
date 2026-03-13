@@ -28,7 +28,7 @@ Located at project root. These variables are embedded into the frontend applicat
 
 ## Backend .env File (Runtime Variables)
 
-Located at `backend/.env`. These variables are loaded at runtime by the Python backend.
+Located at `backend/.env`. These variables are loaded at runtime by the .NET backend.
 
 ### Auth0 Configuration (Required)
 
@@ -95,20 +95,20 @@ From Auth0 Dashboard:
 
 #### Root .env
 ```env
-VITE_AUTH0_DOMAIN=your-tenant.auth0.com
+VITE_AUTH0_DOMAIN=your-tenant.us.auth0.com
 VITE_AUTH0_CLIENT_ID=your_spa_client_id
-VITE_AUTH0_AUDIENCE=https://your-tenant.auth0.com/api/v2/
+VITE_AUTH0_AUDIENCE=https://your-tenant.us.auth0.com/api/v2/
 VITE_API_BASE_URL=http://localhost:8000
 ```
 
 #### Backend .env
 ```env
 # Auth0
-AUTH0_DOMAIN=your-tenant.auth0.com
+AUTH0_DOMAIN=your-tenant.us.auth0.com
 AUTH0_M2M_CLIENT_ID=your_m2m_client_id
 AUTH0_M2M_CLIENT_SECRET=your_m2m_client_secret
 AUTH0_APP_CLIENT_ID=your_spa_client_id
-AUTH0_AUDIENCE=https://your-tenant.auth0.com/api/v2/
+AUTH0_AUDIENCE=https://your-tenant.us.auth0.com/api/v2/
 AUTH0_ADMIN_ROLE_ID=rol_xxx
 AUTH0_MEMBER_ROLE_ID=rol_yyy
 
@@ -132,7 +132,7 @@ Test configuration:
 ```bash
 # Backend
 cd backend
-python -c "from config import settings; print('Config loaded successfully')"
+dotnet build
 
 # Frontend (build test)
 docker-compose build frontend
